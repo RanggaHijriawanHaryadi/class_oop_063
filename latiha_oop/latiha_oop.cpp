@@ -28,3 +28,12 @@ private:
     string code;
     string namaMk;
     int sks;
+public:
+    void inputMk() {
+        cout << "\n\nMasukkan code : ";
+        cin >> code;
+        cout << "Masukkan namaMk : ";
+        cin >> namaMk;
+        cout << "Masukkan sks : ";
+        cin >> sks;
+    }
