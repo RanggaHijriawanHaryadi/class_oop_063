@@ -6,3 +6,14 @@ private:
 	int nim;
 	string nama;
 	float nilai;
+public:
+    void input() {
+        cout << "Masukkan Nim : ";
+        cin >> nim;
+        cout << "Masukkan nama : ";
+        cin >> nama;
+        cout << "Masukkan nilai : ";
+        cin >> nilai;
+    }
+    void printData();
+};
